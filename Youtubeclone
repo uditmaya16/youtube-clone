@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="left-sidebar.css">
+    <link rel="stylesheet" href="thumbnails.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!---This is the header part-->
+
+    <div class="header">
+        <!---It contains left section of the header-->
+        <div class="left-section">
+            <img src="header-icons/hamburger-menu.jpg"
+            class="hamburger-menu">
+            <img src="header-icons/youtube-logo.jpg"
+            class="youtube-logo">
+        </div>
+
+        <!---It contains middle section of the header-->
+
+        <div class="middle-section">
+            <input type="text" class="search-bar" placeholder="Search">
+            <div class="search-buttons">
+                <img src="header-icons/search2.svg" class="search-button">
+                <div class="title">Search</div>
+            </div>
+            <div class="voice-search-bar">
+                <img src="header-icons/voice-search-icon.svg" class="voice-search-button">
+                <div class="title">Search with your voice</div>
+            </div>
+        </div>
+
+        <!---It contains right section of the header-->
+
+        <div class="right-section">
+            <div class="upload-section">
+                <img src="header-icons/upload.jpg" class="upload-icon">
+                <div class="title">Create</div>
+            </div>
+            <div class="apps-section">
+                <img src="header-icons/youtube-apps.jpg" class="apps-icon">
+                <div class="title">YouTube apps</div>
+            </div>
+            <div class="notifications-section">
+                <img src="header-icons/notifications.jpg" class="notifications-icon">
+                <div class="notifications-count">3</div>
+                <div class="title">Notifications</div>
+            </div>
+            <img src="header-icons/my-channel.jpg" class="my-channel-icon">
+        </div>
+    </div>
+
+    <!---This is the left sidebar-->
+
+    <div class="left-sidebar">
+        <div class="buttons">
+            <div class="home-button">
+                <img src="sidebar-icons/home.svg" class="home-icon">
+                <div class="home-title">Home</div>
+            </div>
+            <div class="explore-button">
+                <img src="sidebar-icons/explore.svg" class="explore-icon">
+                <div class="explore-title">Explore</div>
+            </div>
+            <div class="subscriptions-button">
+                <img src="sidebar-icons/subscriptions.svg" class="subscriptions-icon">
+                <div class="subscriptions-title">Subscriptions</div>
+            </div>
+            <div class="originals-button">
+                <img src="sidebar-icons/originals.svg" class="originals-icon">
+                <div class="originals-title">Originals</div>
+            </div>
+            <div class="yt-music-button">
+                <img src="sidebar-icons/youtube-music.svg" class="yt-music-icon">
+                <div class="yt-music-title">YouTube Music</div>
+            </div>
+            <div class="library-button">
+                <img src="sidebar-icons/library.svg" class="library-icon">
+                <div class="library-title">Library</div>
+            </div>
+        </div>
+    </div>
+
+    <!--This is the videos section-->
+
+    <!---1 video-->
+    <div class="thumbnails">
+        <div class="video-bar">
+            <div class="thumbnail-section">
+                <a href="https://www.youtube.com/watch?v=pJxUx5fFwf8&t=3023s">
+                    <img src="thumbnails/snax-thumbnail.webp" class="snax-thumbnail">
+                </a>
+            </div>
+        <div class="video-info-section">
+            <div class="thumbnail-left-section">
+                <a href="https://www.youtube.com/@SnaxGaming">
+                    <img src="channel-profile-picture/snax_profile.jpg" class="snax-profile">
+                </a>
+            </div>
+
+            <div class="thumbnail-right-section">
+                <div class="thumbnail-title">BGMI LIVE WITH SNAX + LAST OF US 2 - ROAD TO 2M !insta</div>
+                <div class="name">Snax Gaming</div>
+                <div class="views-month">234k views • 2 days ago</div>
+            </div>
+        </div>
+        </div>
+
+        <!---2nd video-->
+
+        <div class="video-bar">
+            <div class="thumbnail-section">
+                <a href="https://www.youtube.com/watch?v=pJxUx5fFwf8&t=3023s">
+                    <img src="thumbnails/virat-kohli.webp" class="snax-thumbnail">
+                </a>
+            </div>
+        <div class="video-info-section">
+            <div class="thumbnail-left-section">
+                <a href="https://www.youtube.com/@SnaxGaming">
+                    <img src="channel-profile-picture/cricket_profile.jpg" class="snax-profile">
+                </a>
+            </div>
+
+            <div class="thumbnail-right-section">
+                <div class="thumbnail-title">Kohli's FIRST Test Century in England! | Edgbaston 2018 | England Cricket
+                </div>
+                <div class="name">Super Cricket</div>
+                <div class="views-month">1M views • 6 months ago</div>
+            </div>
+        </div>
+        </div>
+
+        <!---3rd video-->
+
+        <div class="video-bar">
+            <div class="thumbnail-section">
+                <a href="https://www.youtube.com/watch?v=pJxUx5fFwf8&t=3023s">
+                    <img src="thumbnails/anubhav-bassi.webp" class="snax-thumbnail">
+                </a>
+            </div>
+        <div class="video-info-section">
+            <div class="thumbnail-left-section">
+                <a href="https://www.youtube.com/@SnaxGaming">
+                    <img src="channel-profile-picture/anubhav_profile.jpg" class="snax-profile">
+                </a>
+            </div>
+
+            <div class="thumbnail-right-section">
+                <div class="thumbnail-title">Waxing - Stand Up Comedy ft. Anubhav Singh Bassi</div>
+                <div class="name">Anubhav Singh Bassi</div>
+                <div class="views-month">50M views • 4 years ago</div>
+            </div>
+        </div>
+        </div>
+
+        <!--4th video-->
+
+        <div class="video-bar">
+            <div class="thumbnail-section">
+                <a href="https://www.youtube.com/watch?v=pJxUx5fFwf8&t=3023s">
+                    <img src="thumbnails/apna-college.webp" class="snax-thumbnail">
+                </a>
+            </div>
+        <div class="video-info-section">
+            <div class="thumbnail-left-section">
+                <a href="https://www.youtube.com/@SnaxGaming">
+                    <img src="channel-profile-picture/apnacollege_profile.jpg" class="snax-profile">
+                </a>
+            </div>
+
+            <div class="thumbnail-right-section">
+                <div class="thumbnail-title">How to get placement in 4 months | Apna College</div>
+                <div class="name">Apna College</div>
+                <div class="views-month">993k views • 3 months ago</div>
+            </div>
+        </div>
+        </div>
+
+        <!---5th video-->
+
+        <div class="video-bar">
+            <div class="thumbnail-section">
+                <a href="https://www.youtube.com/watch?v=pJxUx5fFwf8&t=3023s">
+                    <img src="thumbnails/sunil-grover.webp" class="snax-thumbnail">
+                </a>
+            </div>
+        <div class="video-info-section">
+            <div class="thumbnail-left-section">
+                <a href="https://www.youtube.com/@SnaxGaming">
+                    <img src="channel-profile-picture/snax_profile.jpg" class="snax-profile">
+                </a>
+            </div>
+
+            <div class="thumbnail-right-section">
+                <div class="thumbnail-title">Dr. Gulati best moments | The Kapil Sharma Show</div>
+                <div class="name">SET India</div>
+                <div class="views-month">2.4M views • 11 months ago</div>
+            </div>
+        </div>
+        </div>
+
+        <!--6th video-->
+
+        <div class="video-bar">
+            <div class="thumbnail-section">
+                <a href="https://www.youtube.com/watch?v=pJxUx5fFwf8&t=3023s">
+                    <img src="thumbnails/virat-kohli1.webp" class="snax-thumbnail">
+                </a>
+            </div>
+        <div class="video-info-section">
+            <div class="thumbnail-left-section">
+                <a href="https://www.youtube.com/@SnaxGaming">
+                    <img src="channel-profile-picture/cricket_profile.jpg" class="snax-profile">
+                </a>
+            </div>
+
+            <div class="thumbnail-right-section">
+                <div class="thumbnail-title">Virat Kohli 94* (50) vs West Indies 1st T20I 2019 Hyderabad (Ball By Ball)</div>
+                <div class="name">Virat Kohli TV</div>
+                <div class="views-month">5.5M views • 3 months ago</div>
+            </div>
+        </div>
+        </div>
+
+        <!---7th video-->
+
+        <div class="video-bar">
+            <div class="thumbnail-section">
+                <a href="https://www.youtube.com/watch?v=pJxUx5fFwf8&t=3023s">
+                    <img src="thumbnails/jam-with-fam.webp" class="snax-thumbnail">
+                </a>
+            </div>
+        <div class="video-info-section">
+            <div class="thumbnail-left-section">
+                <a href="https://www.youtube.com/@SnaxGaming">
+                    <img src="channel-profile-picture/puma_profile.jpg" class="snax-profile">
+                </a>
+            </div>
+
+            <div class="thumbnail-right-section">
+                <div class="thumbnail-title">Jam with Fam: Virat Kohli & Anushka Sharma at PUMA India HQ</div>
+                <div class="name">Virat Kohli TV</div>
+                <div class="views-month">7.9M views • 8 months ago</div>
+            </div>
+        </div>
+        </div>
+
+        <!--8th video-->
+
+        <div class="video-bar">
+            <div class="thumbnail-section">
+                <a href="https://www.youtube.com/watch?v=pJxUx5fFwf8&t=3023s">
+                    <img src="thumbnails\/jab-we-met.webp" class="snax-thumbnail">
+                </a>
+            </div>
+        <div class="video-info-section">
+            <div class="thumbnail-left-section">
+                <a href="https://www.youtube.com/@SnaxGaming">
+                    <img src="channel-profile-picture/shemaroo_profile.jpg" class="snax-profile">
+                </a>
+            </div>
+
+            <div class="thumbnail-right-section">
+                <div class="thumbnail-title">सिखनी हूं मैं भटिंडा की | Jab We Met | Full Movie | Kareena Kapoor - Shahid Kapoor | Comedy Movie</div>
+                <div class="name">Shemaroo Comedy</div>
+                <div class="views-month">5.7M views • 1 year ago</div>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
